@@ -9,8 +9,8 @@ terraform {
 }
 
 provider "azurerm" {
-  subscription_id = "61bd38d2-51fa-4243-9689-7f55df510fc1"
-  tenant_id       = "b0b76d6e-14b7-4c08-8657-a19ef23b3b0b"
+  subscription_id = "87418009-424f-4879-94fd-a977b0db8a37"
+    tenant_id       = "b489551b-9d5b-49c3-9415-9806ee9d590d"
   features {}
 }
 
@@ -24,7 +24,7 @@ variable "resource_group_name" {
 }
 
 variable "acr_name" {
-  default = "acrrathore01" 
+  default = "simran06" 
 }
 
 variable "aks_cluster_name" {
