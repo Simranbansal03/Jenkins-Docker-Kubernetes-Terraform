@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url:https:'//github.com/Simranbansal03/Jenkins-Docker-Kubernetes-Terraform'
+                git branch: 'main', url:'https://github.com/Simranbansal03/Jenkins-Docker-Kubernetes-Terraform'
             }
         }
 
